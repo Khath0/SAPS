@@ -1,0 +1,330 @@
+.btn{
+  display:flexboxs;
+  align-items: center;
+  flex-direction:row;
+  height: 30vh;
+  width: 20vw;
+  margin: 5px 5px;
+  background-color: rgb(26, 77, 171);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  color:rgba(227, 217, 217, 0.774);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing:normal;
+  cursor:pointer}
+
+  .MainContainer {
+  display:block;
+  align-items: center;
+  flex-direction:row;
+  height: 70vh;
+  width: 80vw;
+  background: rgb(56, 46, 199);  
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.2);
+  backdrop-filter: blur(8.5);
+  border-radius: 20px;
+  color: rgb(223, 212, 212);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;  
+  
+} 
+.table {
+  table-layout:initial;
+  height: 70vh;
+  width: 80vw;
+  border-collapse:inherit;
+  border: 3px solid rgb(59, 19, 59);
+  
+}
+.tabla {
+  table-layout:initial;
+  height: 80vh;
+  width: 10vw;
+  border-collapse:inherit;
+  border: 3px solid rgb(59, 19, 59);
+  
+}
+
+.table
+.th
+.td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+.pumba{
+  background-Color: #8699a8;
+  color:white;
+  padding:10px;
+  margin: 5px 0;
+  
+  cursor:pointer;
+
+}
+
+.ButtonContainer {
+  background-Color: rgb(66, 116, 209);
+  margin: 1rem 0 2rem 0 ;
+  height: 10vh;
+  width: 10vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group{
+  position: relative;
+  
+}
+.input{
+  width: 440px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+  margin: 15px;
+  color: #1766DC;
+  background-color: transparent;
+  outline: 2px solid #fff;
+}
+.inputP{
+  width: 440px;
+  height: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+  margin: 15px;
+  color: #1766DC;
+  background-color: transparent;
+  outline: 2px solid #fff;
+  top: 8px;
+}
+
+.input-label{
+  position: absolute;
+  color: #1766DC;
+  padding: 13px;
+  margin-left: 20px;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+  
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label{
+  transform:
+  translate(10px, -23px) scale(.8);
+  color: #1766DC;
+  padding-inline: 5px;
+  
+}
+.input:is(:focus, :valid){
+  outline-color: #d1c5fc;
+  
+}
+
+.inputP:focus+.input-label,
+.inputP:valid+.input-label{
+  transform:
+  translate(10px, -23px) scale(.8);
+  color: #1766DC;
+  padding-inline: 5px;
+
+  
+}
+.inputP:is(:focus, :valid){
+  outline-color: #d1c5fc;
+}
+
+.ButtonSend{
+  background-color: #fff;
+  color: #1766DC;
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  cursor:pointer;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.PreguntaFrecuente{
+  width: 100px;
+  height: 100px;
+  outline-color: #d1c5fc;
+}
+
+.subCabecera{
+  display: inline-block;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../src/images/img0.jpg');
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;   
+}
+
+.center{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30vw;
+}
+
+
+
+
+.ButtonContainer {
+  background-Color: rgb(66, 116, 209);
+  margin: 1rem 0 2rem 0 ;
+  height: 10vh;
+  width: 10vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group{
+  position: relative;
+  
+}
+.input{
+  width: 440px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+  margin: 15px;
+  color: #1766DC;
+  background-color: transparent;
+  outline: 2px solid #fff;
+}
+.inputP{
+  width: 440px;
+  height: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+  margin: 15px;
+  color: #1766DC;
+  background-color: transparent;
+  outline: 2px solid #fff;
+  top: 8px;
+}
+
+.input-label{
+  position: absolute;
+  color: #1766DC;
+  padding: 13px;
+  margin-left: 20px;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+  
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label{
+  transform:
+  translate(10px, -23px) scale(.8);
+  color: #1766DC;
+  padding-inline: 5px;
+  
+}
+.input:is(:focus, :valid){
+  outline-color: #d1c5fc;
+  
+}
+
+.inputP:focus+.input-label,
+.inputP:valid+.input-label{
+  transform:
+  translate(10px, -23px) scale(.8);
+  color: #1766DC;
+  padding-inline: 5px;
+
+  
+}
+.inputP:is(:focus, :valid){
+  outline-color: #d1c5fc;
+}
+
+.ButtonSend{
+  background-color: #fff;
+  color: #1766DC;
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  cursor:pointer;
+  bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-color: rgb(26, 77, 171);
+}
+
+.PreguntaFrecuente{
+  width: 100px;
+  height: 100px;
+  outline-color: #d1c5fc;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url('../src/images/img0.jpg');
+    background-size: cover;
+    display:flex;
+
+    
+}
+
+.center{
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;  
+}
+
+
+
